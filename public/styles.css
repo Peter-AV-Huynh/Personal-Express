@@ -1,0 +1,27 @@
+body{
+  background-image: url('anime.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center; 
+  background-size: 100% 100%;
+  color: rgb(218, 219, 163);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+  margin-top: 40px;
+}
+.gone{
+  display: none;
+}
+.container{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -80%);
+  box-shadow: 0 2px 8px rgb(150, 50, 104);
+  width: 600px;
+  height: 800;
+  text-align: center;
+  background-color: rgb(51, 46, 51, 0.678);
+}
